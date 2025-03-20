@@ -308,6 +308,7 @@ v5:Destroy();
 --         pcall(v422);
 --     end
 -- end);
+
 -- v1.6
 
 local ProtectPremium = true
@@ -368,14 +369,14 @@ local Window = Fluent:CreateWindow({
 
 -- Creating tabs
 local Tabs = {
-    Home = Window:AddTab({ Title = "Home", Icon = "nil" }),
-    Main = Window:AddTab({ Title = "Main", Icon = "nil" }),
-    Teleports = Window:AddTab({ Title = "Teleports", Icon = "nil" }),
-    Misc = Window:AddTab({ Title = "Misc", Icon = "nil" }),
-    Fun = Window:AddTab({ Title = "Fun", Icon = "nil" }),
-    Webhook = Window:AddTab({ Title = "Webhook", Icon = "nil" }),
-    Premium = Window:AddTab({ Title = "Premium", Icon = "nil" }),
-    Settings = Window:AddTab({ Title = "Settings", Icon = "nil" })
+    Home = Window:AddTab({ Title = "Home", Icon = "home" }),
+    Main = Window:AddTab({ Title = "Main", Icon = "code" }),
+    Teleports = Window:AddTab({ Title = "Teleports", Icon = "compass" }),
+    Misc = Window:AddTab({ Title = "Misc", Icon = "file-text" }),
+    Fun = Window:AddTab({ Title = "Fun", Icon = "coffee" }),
+    Webhook = Window:AddTab({ Title = "Webhook", Icon = "clock" }),
+    Premium = Window:AddTab({ Title = "Premium", Icon = "diamond" }),
+    Settings = Window:AddTab({ Title = "Settings", Icon = "settings" })
 }
 
 local Options = Fluent.Options
